@@ -6,10 +6,10 @@ class NamedCow extends Cow
         myName = name;
 	}
 
-	public void getName()
+	/*public NamedCow()
 	{
 		myName = "unknown";
 	}
-
-	public String myName(){return myName;}
+*/
+	public String getName(){return myName;}
 }
