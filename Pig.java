@@ -1,7 +1,7 @@
 class Pig implements Animal 
 {     
-    private String myType;
-    private String mySound;
+    protected String myType;
+    protected String mySound;
     public Pig(String type, String sound)
     {
     	myType = type;

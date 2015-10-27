@@ -1,6 +1,6 @@
  class Farm  
  {     
-    private Animal[] aBunchOfAnimals = new Animal[3];    
+    protected Animal[] aBunchOfAnimals = new Animal[3];    
     public Farm()     
     {       
        aBunchOfAnimals[0] = new NamedCow("cow", "Elsie", "moo");          
